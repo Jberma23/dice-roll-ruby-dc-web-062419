@@ -4,5 +4,5 @@
 def roll(ary)
 ary = [1,2,3,4,5,6]
   ary[rand(ary.length)]
+  return roll
 end
-roll (ary)
